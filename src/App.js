@@ -26,7 +26,7 @@ useEffect(() => {
   return (
     <>
       <div>
-        {/* <Header title={name} btnclick={(n, s) => { alert(n); alert(s); }}/>
+         <Header title={name} btnclick={(n, s) => { alert(n); alert(s); }}/>
         <input onChange={(e)=>{console.log(e)
         setName (e.target.value)
         }}/>
@@ -38,8 +38,8 @@ useEffect(() => {
 
 
         <button onClick={() => {updateName(); }}> {" "} Update FinalName </button>
-        <StudentForm/> */}
-        <Gallery/>
+        <StudentForm/> 
+        
       </div>
     </>
   );
